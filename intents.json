@@ -1,0 +1,171 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?", "Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "college_info",
+      "patterns": ["Information about the college", "What can you say about the college?"],
+      "responses": [
+        "Sri Vijay Vidyalaya College of Arts & Science",
+        "The college offers 24 (UG) Courses, 12 (PG) Courses, 9 M.Phil and 6 Ph.D Programmes."
+      ]
+    },
+    {
+      "tag": "college_established_info",
+      "patterns": ["When was the college established?", "Tell me about the college's establishment"],
+      "responses": ["The college was established in 1987"]
+    },
+    {
+      "tag": "college_university_info",
+      "patterns": ["Which university is the college affiliated to?", "Tell me about the college's affiliation"],
+      "responses": ["The college is affiliated to Periyar University."]
+    },
+    {
+      "tag": "college_courses_info",
+      "patterns": ["What courses does the college offer?", "Tell me about the academic programs", "List of courses at the college"],
+      "responses": ["The college offers 24 (UG) Courses, 12 (PG) Courses"]
+    },
+    {
+      "tag": "college_research_programs_info",
+      "patterns": ["Tell me about the research programs", "What research programs does the college offer?"],
+      "responses": ["The college has 9 M.Phil and 6 Ph.D Programmes."]
+    },
+    {
+      "tag": "courses_info",
+      "patterns": ["What courses does the college offer?", "Tell me about the academic programs", "List of courses at the college"],
+      "responses": [
+        "The college offers a variety of courses including B.A., B.Sc., M.A., M.Sc., Ph.D., and more.",
+        "Some of the courses offered are B.A. Economics, B.Sc. Mathematics, M.A. Tamil, M.Sc. Computer Science, and more."
+      ]
+    },
+    {
+      "tag": "enrollment_info",
+      "patterns": ["How many students are currently enrolled?", "Tell me about the student population", "Enrollment statistics"],
+      "responses": [
+        "Presently, the college has 3808 students.",
+        "The college is vibrant with 3808 students on roll.",
+        "It is promoting academic excellence and generating employable citizens."
+      ]
+    },
+    {
+      "tag": "college offers student",
+      "patterns": ["What  will the college offers to the student?", "Tell me about the Infrastucture of the college?", "Shall the institution allows students to participate in cocurricular activities."],
+      "responses": [
+        "Innovative Classes.","High Tech Labs.","Sports Facilities.",
+        "Library,laboratries,Cantin,Transport,Hostel Facilities.",
+        "Yes,It encourage students to participate in NSS,Sports."
+      ]
+    },
+    {
+      "tag": "management_info",
+      "patterns": ["Who is the founder of Sri Vijay Vidyalaya College.", "Who is the Chairman of Sri Vijay Vidyalaya College", "Tell me about your Chairman."],
+      "responses": [
+        "Sri.D.N.Chinnaswamy was the founder of Sri Vijay Vidyalaya College .",
+        "The Chairman of Sri Vijay Vidyalaya College is Mr.D.N.C.Manivannan.","He is an educationist,enterpreneur and philanthropist with 40 years of experience and he led to the development of successful instituitons in Dhrmapuri,Krishnagiri,Tripattur and Tiruvannamalai"
+      ]
+    },
+    {
+      "tag": "academic_achievements",
+      "patterns": ["What are the achievements of the college","How many gold medals does the college achieved in 2024"],
+      "responses": [
+        "The college has produced many doctors and engineers in top colleges every year.",
+        "By last year,9 Gold medals were achieved by students of various departments ."
+      ]
+    },
+    {
+      "tag": "undergraduate_courses",
+      "patterns": ["Tell me about the undergraduate courses", "List of UG courses", "UG programs at the college"],
+      "responses": [
+        "The college offers the following Undergraduate courses:1. B.A. Tamil,2. B.A. English, 3. B.A. Economics, 4. B.A. History, 5. B.Com., 6. B.Sc.Botany, 7. B.Sc. Bio Chemistry ,8. B.Sc. Mathematics, 9. B.Sc. Computer Science,10. B.Sc. Physics,11. B.Sc. Chemistry,12. B.Sc. Zoology"
+      ]
+    },
+    {
+      "tag": "postgraduate_courses",
+      "patterns": ["Tell me about the postgraduate courses", "List of PG courses", "PG programs at the college"],
+      "responses": [
+        "The college offers the following Postgraduate courses:1. M.A. Tamil, 2. M.A. English, 3. M.Com.,4. M.Sc. Mathematics,5. M.Sc. Computer Science,6. M.Sc. Bio Chemistry,7. M.Sc Physics"
+      ]
+    },
+    {
+      "tag": "placement_info",
+      "patterns": ["Tell me about placements", "What are the companies that the college offers for placements?"],
+      "responses": [
+        "Our College students benefit from the Placement cell, which guides the students in choosing their career depending on their skill.",
+        "The college offers the top recruiting companies like Infosys,Tata,HCL,Wipo,Mahendra,TCS and so on."
+      ]
+    },
+    {
+      "tag": "placement_circular_info",
+      "patterns": ["Tell me about placement circulars", "Information about placement circulars"],
+      "responses": [
+        "Circulars were circulated to I & II shift final year students regarding student databases for placement drives/interviews received from Periyar University, Salem.",
+        "Circulars were also circulated regarding TANCET, NIMCET awareness programs and entrance exams by AIM Institute, Bulls Academy, Chennai."
+      ]
+    },
+    {
+      "tag": "hostel_info",
+      "patterns": ["Tell me about hostel facilities"],
+      "responses": [
+        "Our Hostel is like a next home, women warden are appointed to take care of students.","A neat dress code are followed and a hygienic food is been provided for the students."
+        ]
+    },
+    {
+      "tag": "library_info",
+      "patterns": ["Tell me about library facilities", "what are the features of college library","how many books are their in library"],
+      "responses": [
+        "Our library has good range of books on science,literature,personalities,economics etc.,.",
+        "The library contains E-learning library with Wi_Fi Facility computers",
+        "The total number of books in our library are 23,952"
+      ]
+    },
+    {
+      "tag": "seminar_info",
+      "patterns": ["Tell me about seminars", "Information about seminars", "Recent seminars at the college"],
+      "responses": [
+        "On July 22nd, 2019, In Focus IT Solutions conducted a seminar on 'Skills to be developed in the 21st century and recent trends in computer science'.",
+        "Mr. Karuppanasamy, director of In Focus IT Academy, emphasized the importance of International IT certification. Venue: µp lab. Participants: Students of computer science."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": ["What is the college's phone number?", "email contact"," What is the college's email address?", "Contact number"],
+      "responses": ["You can reach the college at the following phone number: 04343 - 225934",
+      "You can contact the college via email at: svvcas@gmail.com"]
+    },
+    {
+      "tag": " cs department_info",
+      "patterns": ["Tell me about Computer science department?"," Who is the current HOD of computer science department?"],
+      "responses": ["Department of Computer Science was started with B.Sc and B.C.A in the year of 2010,Ten of our faculty members are experts in various fields of teaching and research activities, Computer science department graduate and post graduate students won 8 Gold medals and 52 university ranks",
+      "Mrs.Dr.N.Kowsalya is the current Hod of computer science Department"
+      ]
+    },
+    {
+      "tag": "address_info",
+      "patterns": ["What is the college's address?",  "College address"],
+      "responses": ["The college is located at Nallampalli, Papparapatty Road(via) Nagarkoodal,Balajangamanhalli, Dharmapuri. 636807"]
+    },
+    {
+      "tag": "website_info",
+      "patterns": ["What is the college's website?", " College Website details"],
+      "responses": ["You can visit the college's website at: www.svvcas.com"]
+    },
+    {
+      "tag": "principal_info",
+      "patterns": ["Who is the current principal?", "Principal's name", "Tell me about the principal"],
+      "responses": ["The current principal of the college is Dr. K.Balasundaram, M.Sc,M.Phil., Ph.D.", "Dr. K.Balasundaram is an commitee member of Ramanujam Mathematical society and NAAC Coordinater"]
+    }
+  ]
+}
